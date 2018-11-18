@@ -29,11 +29,4 @@ RUN apt-get clean
 # install anybadge
 RUN pip3 install anybadge
 
-# few additional catalogues created
-RUN mkdir target
-RUN mkdir target/data
-RUN mkdir target/templates
-RUN mkdir target/ci
-
-
 CMD [""]
