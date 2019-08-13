@@ -29,6 +29,9 @@ RUN apt-get -y install bc
 # install xmllint
 RUN apt-get -y install libxml2-utils
 
+# install CLOC (lines of code counter)
+RUN apt-get -y install cloc
+
 # remove download archive files
 RUN apt-get clean
 
