@@ -32,6 +32,9 @@ RUN apt-get -y install libxml2-utils
 # install CLOC (lines of code counter)
 RUN apt-get -y install cloc
 
+# install SSH client
+RUN apt-get -y install openssh-client
+
 # remove download archive files
 RUN apt-get clean
 
